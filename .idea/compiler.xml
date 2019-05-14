@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consume1" />
+        <module name="consume2" />
+        <module name="eureka-server" />
+        <module name="resource1" />
+        <module name="resource2" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
