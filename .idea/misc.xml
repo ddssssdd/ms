@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/consume1/pom.xml" />
         <option value="$PROJECT_DIR$/consume2/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>

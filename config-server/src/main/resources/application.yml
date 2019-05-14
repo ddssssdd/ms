@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ddssssdd/ms-config.git
+
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+    org.springframework.boot: DEBUG
+
+#http://www.itmuch.com/spring-cloud/finchley-19/
