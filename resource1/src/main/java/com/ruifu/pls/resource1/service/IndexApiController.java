@@ -14,6 +14,6 @@ public class IndexApiController {
 
     @RequestMapping("/index")
     public String index(){
-        return "Version 1.0, running on port:"+serverPort;
+        return "Version 1.0, running on port: "+serverPort;
     }
 }

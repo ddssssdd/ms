@@ -12,6 +12,7 @@
         <module name="eureka-server" />
         <module name="resource1" />
         <module name="resource2" />
+        <module name="service-sleuth" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
