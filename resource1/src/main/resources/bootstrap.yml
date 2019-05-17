@@ -12,7 +12,11 @@ spring:
         enabled: true
       profile: default
       label: master
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
 
 
 
