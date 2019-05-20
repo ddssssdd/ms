@@ -2,41 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61646d5-de9b-4708-9f6e-d4455d9195a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/AuthJdbcServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/UserServiceDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth-authorization-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/ServiceAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/MyRedisTokenStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-auth/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/OAuth2ClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/service/TestEndPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/AuthJwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/UserServiceDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/service/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/resources/public.cert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/main/resources/test-jwt.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-jwt/src/test/java/com/ruifu/pls/authjwt/AuthJwtApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/BPwdEncoderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/ServiceHiJwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/TestEndPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginParamDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/JWT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/main/resources/public.cert" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-hi-jwt/src/test/java/com/ruifu/pls/servicehijwt/ServiceHiJwtApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,6 +65,8 @@
     <ignored path="$PROJECT_DIR$/service-hi/target/" />
     <ignored path="$PROJECT_DIR$/service-auth-jdbc/target/" />
     <ignored path="$PROJECT_DIR$/auth-jdbc-service/target/" />
+    <ignored path="$PROJECT_DIR$/auth-jwt/target/" />
+    <ignored path="$PROJECT_DIR$/service-hi-jwt/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,56 +78,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.6004383">
       <split-first>
         <leaf>
-          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+          <file leaf-file-name="TestEndPointController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/TestEndPointController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+                <state relative-caret-position="302">
+                  <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1507#1508#0" expanded="true" />
+                    <element signature="e#1548#1549#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/Role.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="70">
-                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="2" column="28" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserServiceImpl.java">
+          <file leaf-file-name="ResourceServerConfiguration.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/ResourceServerConfiguration.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="224">
-                  <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+                  <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -121,37 +104,99 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ServiceHiApplication.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/ServiceHiApplication.java">
+          <file leaf-file-name="JwtConfig.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/JwtConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="294">
+                  <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
                   <folding>
-                    <element signature="e#417#418#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TestEndPointController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/service/TestEndPointController.java">
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="434">
-                  <caret line="45" column="83" lean-forward="true" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
+                <state relative-caret-position="302">
+                  <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServiceHiJwtApplication.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/ServiceHiJwtApplication.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="70">
+                  <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/UserController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="320">
+                  <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1824#1825#0" expanded="true" />
+                    <element signature="e#1865#1866#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BPwdEncoderUtil.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/BPwdEncoderUtil.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserDao.java">
-              <provider selected="true" editor-type-id="text-editor" />
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="84">
+                  <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/auth-jdbc-service/src/main/resources/application.yml">
+          <file leaf-file-name="UserLoginDto.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginDto.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="21" column="20" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="21" selection-end-column="20" />
+                <state relative-caret-position="210">
+                  <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#138#139#0" expanded="true" />
+                    <element signature="e#164#165#0" expanded="true" />
+                    <element signature="e#199#200#0" expanded="true" />
+                    <element signature="e#229#230#0" expanded="true" />
+                    <element signature="e#258#259#0" expanded="true" />
+                    <element signature="e#285#286#0" expanded="true" />
+                    <element signature="e#323#324#0" expanded="true" />
+                    <element signature="e#355#356#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -161,10 +206,28 @@
       <split-second>
         <leaf>
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="511">
+                  <caret line="45" column="21" selection-start-line="20" selection-start-column="7" selection-end-line="45" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/service-auth/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+                <state relative-caret-position="274">
+                  <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/auth-jdbc-service/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="526">
+                  <caret line="51" selection-start-line="51" selection-end-line="51" />
                 </state>
               </provider>
             </entry>
@@ -194,29 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/controller/TokenController.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/CorsFilter.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/CustomTokenEnhancer.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/OAuth2ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/RevokeTokenEndpoint.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/OauthAuthorizationServerApplication.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/OAuth2AuthorizationServerConfigInMemory.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/OAuth2AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/java/com/ruifu/pls/oauthauthorizationserver/config/OAuth2AuthorizationServerConfigJwt.java" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/oauth-authorization-server/pom.xml" />
-        <option value="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/UserController.java" />
-        <option value="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/MyRedisTokenStore.java" />
-        <option value="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/consume1/pom.xml" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/ResourceServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/OAuth2ClientConfig.java" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/ServiceHiApplication.java" />
-        <option value="$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/AuthorizationServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/service-auth/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service-auth/pom.xml" />
         <option value="$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauth/ServiceAuthJdbcApplication.java" />
         <option value="$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/confg/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/confg/MyRedisTokenStore.java" />
@@ -245,6 +285,29 @@
         <option value="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserDao.java" />
         <option value="$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/service/TestEndPointController.java" />
         <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/AuthJwtApplication.java" />
+        <option value="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/service/UserController.java" />
+        <option value="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/Role.java" />
+        <option value="$PROJECT_DIR$/auth-jwt/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/auth-jwt/src/main/resources/public.cert" />
+        <option value="$PROJECT_DIR$/auth-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/ServiceHiJwtApplication.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/JwtConfig.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginParamDto.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/JWT.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/Role.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/User.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserService.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginDto.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserDao.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/BPwdEncoderUtil.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/TestEndPointController.java" />
+        <option value="$PROJECT_DIR$/service-hi-jwt/pom.xml" />
       </list>
     </option>
   </component>
@@ -322,52 +385,25 @@
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-jwt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authjdbcservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authjdbcservice" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-jdbc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -380,57 +416,82 @@
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehijwt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehijwt" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicehi" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehijwt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ms" type="b2602c69:ProjectViewProjectNode" />
               <item name="ms" type="462c0819:PsiDirectoryNode" />
-              <item name="service-hi" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehijwt" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicehijwt" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="service-hi-jwt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -460,15 +521,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ruifu.pls.authjwt.service" />
       <recent name="com.ruifu.pls.servicehi.config" />
       <recent name="com.ruifu.pls.serviceauthjdbc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\microservice3\ms\service-hi-jwt\src\main\resources" />
+      <recent name="D:\microservice3\ms\auth-jwt\src\main\resources" />
+      <recent name="D:\microservice3\ms\auth-jwt\src\main\java\com\ruifu\pls\authjwt\config" />
       <recent name="D:\microservice3\ms\service-hi\src\main\java\com\ruifu\pls\servicehi\config" />
       <recent name="D:\microservice3\ms\service-auth-jdbc\src\main\java\com\ruifu\pls\serviceauthjdbc" />
-      <recent name="D:\microservice3\ms\service-auth-jdbc\src\main\resources" />
-      <recent name="D:\microservice3\ms" />
-      <recent name="D:\microservice3\ms\service-zuul\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -488,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceAuthApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceHiJwtApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -514,6 +576,11 @@
     <configuration name="AuthJdbcServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="auth-jdbc-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruifu.pls.authjdbcservice.AuthJdbcServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="AuthJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruifu.pls.authjwt.AuthJwtApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -558,6 +625,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruifu.pls.servicehi.ServiceHiApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="ServiceHiJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-hi-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruifu.pls.servicehijwt.ServiceHiJwtApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="ServiceSleuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-sleuth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruifu.pls.servicesleuth.ServiceSleuthApplication" />
@@ -590,6 +662,8 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ServiceHiJwtApplication" />
+      <item itemvalue="Spring Boot.AuthJwtApplication" />
       <item itemvalue="Spring Boot.ServiceHiApplication" />
       <item itemvalue="Spring Boot.AuthJdbcServiceApplication" />
       <item itemvalue="Spring Boot.OauthAuthorizationServerApplication" />
@@ -619,7 +693,7 @@
       <workItem from="1557882572295" duration="5829000" />
       <workItem from="1557974067326" duration="10848000" />
       <workItem from="1558055256467" duration="1852000" />
-      <workItem from="1558330245184" duration="12106000" />
+      <workItem from="1558330245184" duration="14433000" />
     </task>
     <task id="LOCAL-00001" summary="init commit.">
       <created>1557816679974</created>
@@ -656,15 +730,28 @@
       <option name="project" value="LOCAL" />
       <updated>1558082252792</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add auth, auth-jdbc server.">
+      <created>1558343917609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558343917609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add auth, auth-jdbc server step2.">
+      <created>1558344032017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558344032017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45743000" />
+    <option name="totallyTimeSpent" value="48070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
@@ -684,12 +771,12 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.35861322" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" visible="true" weight="0.2665222" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.55146265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -715,7 +802,9 @@
     <MESSAGE value="add config server module." />
     <MESSAGE value="change config to config-center:git" />
     <MESSAGE value="add authorization server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add authorization server" />
+    <MESSAGE value="add auth, auth-jdbc server." />
+    <MESSAGE value="add auth, auth-jdbc server step2." />
+    <option name="LAST_COMMIT_MESSAGE" value="add auth, auth-jdbc server step2." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,211 +812,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/MyRedisTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1778">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2444#2445#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2552#2553#0" expanded="true" />
-            <element signature="e#2599#2600#0" expanded="true" />
-            <element signature="e#2666#2667#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#3384#3385#0" expanded="true" />
-            <element signature="e#3451#3452#0" expanded="true" />
-            <element signature="e#3505#3506#0" expanded="true" />
-            <element signature="e#3579#3580#0" expanded="true" />
-            <element signature="e#9238#9239#0" expanded="true" />
-            <element signature="e#9300#9301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/src/main/java/com/ruifu/pls/serviceauth/confg/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauth/confg/MyRedisTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauth/ServiceAuthJdbcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauth/ServiceAuthJdbcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauth/confg/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/ServiceAuthJdbcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/confg/MyRedisTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/confg/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/java/com/ruifu/pls/serviceauthjdbc/confg/AuthorizationServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/service-auth-jdbc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/service-auth.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1748" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/mvnw">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/.mvn/wrapper/maven-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth/.mvn/wrapper/MavenWrapperDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#4629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-auth-jdbc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="404" column="51" selection-start-line="404" selection-start-column="51" selection-end-line="404" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-jdbc-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/config/UserServiceDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -942,16 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1084,7 +951,7 @@
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1094,7 +961,7 @@
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/service/TestEndPointController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
-          <caret line="45" column="83" lean-forward="true" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
+          <caret line="45" column="83" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -1108,7 +975,7 @@
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/ruifu/pls/servicehi/config/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1125,24 +992,338 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-jdbc-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="308">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/auth-jdbc-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="266">
+          <caret line="19" column="16" lean-forward="true" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jdbc-service/src/main/java/com/ruifu/pls/authjdbcservice/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/service/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/UserServiceDetail.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/Role.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/resources/public.cert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/resources/test-jwt.jks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/config/AuthorizationServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#2207#2208#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jdbc-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-auth/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="274">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="45" column="21" selection-start-line="20" selection-start-column="7" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/resources/public.cert">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="28" selection-start-line="12" selection-start-column="2" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-jwt/src/main/java/com/ruifu/pls/authjwt/AuthJwtApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginParamDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/JWT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserLoginDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/dto/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/ServiceHiJwtApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/BPwdEncoderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/TestEndPointController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+            <element signature="e#1865#1866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi-jwt/src/main/java/com/ruifu/pls/servicehijwt/config/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

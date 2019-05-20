@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/auth-jdbc-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-jwt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consume1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consume2" charset="UTF-8" />
@@ -15,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/service-auth-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-auth-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-hi-jwt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-sleuth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul" charset="UTF-8" />
   </component>

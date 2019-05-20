@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auth-jdbc-service" />
+        <module name="auth-jwt" />
         <module name="config-server" />
         <module name="consume1" />
         <module name="consume2" />
@@ -16,6 +17,7 @@
         <module name="resource2" />
         <module name="service-auth" />
         <module name="service-hi" />
+        <module name="service-hi-jwt" />
         <module name="service-sleuth" />
         <module name="service-zuul" />
       </profile>

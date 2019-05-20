@@ -1,0 +1,32 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8766
+spring:
+  application:
+    name: service-hi-jwt
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://a.thoughts-go.top:3306/db_oauth?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: oauth_user
+    password: P@ss!2#4%6
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: http://localhost:9098/oauth/token_key
+    client:
+      client-id: client_2
+      client-secret: 123456
+      access-token-uri: http://localhost:9098/oauth/token
+      grant-type: password
+      scope: server
+      user-authorization-uri: http://localhost:9098/oauth/authorize
