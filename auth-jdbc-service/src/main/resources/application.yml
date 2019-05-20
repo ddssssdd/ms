@@ -1,0 +1,22 @@
+server:
+  port: 9097
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: auth-jdbc-service
+  redis:
+    host: 127.0.0.1
+    database: 0
+  datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://a.thoughts-go.top:3306/db_oauth?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+        username: oauth_user
+        password: P@ss!2#4%6
+
+  jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
