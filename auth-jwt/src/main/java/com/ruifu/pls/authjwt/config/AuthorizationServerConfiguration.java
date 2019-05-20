@@ -32,7 +32,9 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     @Qualifier("authenticationManagerBean")
     AuthenticationManager authenticationManager;
 
-
+/*
+* https://github.com/talk2amareswaran/spring-boot2-oauth2-auth-server-jwt-mysql
+* */
 
     @Autowired
     private DataSource dataSource;
@@ -79,17 +81,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-        // 存数据库
-        endpoints.tokenStore(tokenStore).authenticationManager(authenticationManager)
-                .userDetailsService(userDetailsService);
-
-        // 配置tokenServices参数
-        DefaultTokenServices tokenServices = new DefaultTokenServices();
-        tokenServices.setTokenStore(endpoints.getTokenStore());
-        tokenServices.setSupportRefreshToken(false);
-        tokenServices.setClientDetailsService(endpoints.getClientDetailsService());
-        tokenServices.setTokenEnhancer(endpoints.getTokenEnhancer());
-        tokenServices.setAccessTokenValiditySeconds((int)TimeUnit.DAYS.toSeconds(30)); // 30天
-        endpoints.tokenServices(tokenServices);
+        endpoints.tokenStore(tokenStore()).tokenEnhancer(jwtAccessTokenConverter())
+                .authenticationManager(authenticationManager).userDetailsService(userDetailsService);
     }
 }
