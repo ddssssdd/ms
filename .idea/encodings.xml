@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/auth-jdbc-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/auth-jwt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth-jwt-extend" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consume1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consume2" charset="UTF-8" />

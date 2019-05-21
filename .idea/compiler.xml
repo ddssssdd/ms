@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="auth-jdbc-service" />
         <module name="auth-jwt" />
+        <module name="auth-jwt-extend" />
         <module name="config-server" />
         <module name="consume1" />
         <module name="consume2" />

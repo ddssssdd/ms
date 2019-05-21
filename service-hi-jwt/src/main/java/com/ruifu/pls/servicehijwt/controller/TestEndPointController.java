@@ -44,11 +44,11 @@ public class TestEndPointController {
 
     @GetMapping("/getPrinciple")
     public OAuth2Authentication getPrinciple(OAuth2Authentication oAuth2Authentication, Principal principal, Authentication authentication) {
-        logger.info(oAuth2Authentication.getUserAuthentication().getAuthorities().toString());
+        /*logger.info(oAuth2Authentication.getUserAuthentication().getAuthorities().toString());
         logger.info(oAuth2Authentication.toString());
         logger.info("principal.toString() " + principal.toString());
         logger.info("principal.getName() " + principal.getName());
-        logger.info("authentication: " + authentication.getAuthorities().toString());
+        logger.info("authentication: " + authentication.getAuthorities().toString());*/
 
         return oAuth2Authentication;
     }
