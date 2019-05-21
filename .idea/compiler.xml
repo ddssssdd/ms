@@ -16,6 +16,7 @@
         <module name="resource1" />
         <module name="resource2" />
         <module name="service-auth" />
+        <module name="service-auth-jdbc" />
         <module name="service-hi" />
         <module name="service-hi-jwt" />
         <module name="service-sleuth" />
@@ -24,7 +25,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service-auth (1)" target="1.8" />
-      <module name="service-auth-jdbc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
