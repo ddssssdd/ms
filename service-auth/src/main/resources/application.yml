@@ -8,6 +8,8 @@ spring:
   application:
     name: service-auth
   redis:
-    host: 127.0.0.1
+    host: a.thoughts-go.top
+    password: rj20170103P@ss!2#4%6
     database: 0
+    port: 26379
 

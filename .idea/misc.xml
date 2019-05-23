@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -21,6 +24,7 @@
         <option value="$PROJECT_DIR$/auth-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/service-hi-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/auth-jwt-extend/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache/pom.xml" />
       </list>
     </option>
   </component>

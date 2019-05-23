@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
@@ -41,6 +42,8 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 
     @Autowired
     private TokenStore tokenStore;
+    @Autowired
+    RedisConnectionFactory redisConnectionFactory;
 
     @Autowired
     private UserServiceDetail userDetailsService;
@@ -52,7 +55,8 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 
     @Bean
     public TokenStore tokenStore(){
-        return new JwtTokenStore(jwtAccessTokenConverter());
+        TokenStore store= new JwtTokenStore(jwtAccessTokenConverter());
+        return store;
     }
     @Bean
     public JwtAccessTokenConverter jwtAccessTokenConverter() {

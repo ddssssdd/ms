@@ -8,8 +8,10 @@ spring:
   application:
     name: auth-jwt
   redis:
-    host: 127.0.0.1
-    database: 0
+      host: a.thoughts-go.top
+      password: rj20170103P@ss!2#4%6
+      database: 0
+      port: 26379
   datasource:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://a.thoughts-go.top:3306/db_oauth?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai

@@ -14,6 +14,7 @@
         <module name="consume2" />
         <module name="eureka-server" />
         <module name="oauth-authorization-server" />
+        <module name="redis-cache" />
         <module name="resource1" />
         <module name="resource2" />
         <module name="service-auth" />
