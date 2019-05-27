@@ -23,6 +23,7 @@
         <module name="service-hi-jwt" />
         <module name="service-sleuth" />
         <module name="service-zuul" />
+        <module name="ui1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

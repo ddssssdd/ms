@@ -1,17 +1,12 @@
+spring:
+  application:
+    name: ui1
 eureka:
   client:
     service-url:
        defaultZone: http://admin:admin@localhost:8761/eureka/
-spring:
-  application:
-    name: resource2
-  cloud:
-    config:
-      discovery:
-        service-id: config-server
-        enabled: true
-      profile: default
-      label: master
+server:
+  port: 8000
 security:
   oauth2:
     resource:
@@ -24,6 +19,3 @@ security:
       grant-type: password
       scope: server
       user-authorization-uri: http://localhost:9096/oauth/authorize
-
-
-

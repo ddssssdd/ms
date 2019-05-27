@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/service-hi-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/auth-jwt-extend/pom.xml" />
         <option value="$PROJECT_DIR$/redis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/ui1/pom.xml" />
       </list>
     </option>
   </component>
