@@ -80,13 +80,16 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
         // 允许表单认证
-        security.allowFormAuthenticationForClients().tokenKeyAccess("permitAll()")
+        security.allowFormAuthenticationForClients()
+                .tokenKeyAccess("permitAll()")
                 .checkTokenAccess("isAuthenticated()");
     }
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-        endpoints.tokenStore(tokenStore()).tokenEnhancer(jwtAccessTokenConverter())
-                .authenticationManager(authenticationManager).userDetailsService(userDetailsService);
+        endpoints.tokenStore(tokenStore())
+                .tokenEnhancer(jwtAccessTokenConverter())
+                .authenticationManager(authenticationManager)
+                .userDetailsService(userDetailsService);
     }
 }
